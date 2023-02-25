@@ -1,6 +1,6 @@
 # Starlark Classes
 
-Proof-of-concept implementation of classes in Starlark.
+Proof-of-concept implementation of classes in [Starlark](https://bazel.build/rules/language).
 
 Starlark doesn't provide any form of polymorphism. It's generally better to favor composition over inheritance, but sometimes inheritance is the right tool for the job. Sometimes your config is complex enough, it becomes overly duplicate and messy without better structure.
 
